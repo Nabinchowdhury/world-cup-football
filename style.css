@@ -1,0 +1,137 @@
+ /* universal start */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+ body {
+     margin: 0%;
+     font-family: 'Poppins', sans-serif;
+ }
+
+
+
+
+
+ /* universal end */
+
+ #one {
+
+     display: flex;
+     justify-content: center;
+
+ }
+
+ .banner {
+     background-color: black;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     padding: 2%;
+     border-radius: 20px;
+     margin-top: 4%;
+     margin-bottom: 8%;
+     width: 80%;
+ }
+
+ /* .banner:hover .banner-text .selected {
+     animation: jhokmok 2s timing-function delay infinite alternate fill-mode;
+     animation-play-state: running;
+ } */
+
+ .banner-text {
+     width: 45%;
+     color: white;
+
+ }
+
+ .banner-text h1 {
+     font-size: 60px;
+     padding: 0%;
+     margin: 0%;
+ }
+
+ .banner-text p {
+     margin-bottom: 50px;
+ }
+
+ .banner-text .live {
+     background-color: red;
+     border-radius: 10px;
+     padding: 10px 20px;
+     color: white;
+     font-size: 1.2em;
+     font-weight: 600;
+
+
+ }
+
+ .banner-image {
+     width: 45%;
+ }
+
+ .banner-image img {
+     width: 100%;
+
+ }
+
+ #two {
+     width: 80%;
+     display: flex;
+
+ }
+
+ .nav {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     background-color: black;
+     width: 20%;
+     padding: 1% 0%;
+     border-radius: 5%;
+
+
+
+ }
+
+ .navmenu {
+     width: 70%;
+     margin: 4%;
+     border-radius: 10px;
+     padding: 10px 20px;
+     background-color: white;
+     text-align: center;
+ }
+
+ .navmenu a {
+     text-decoration: none;
+     color: black;
+ }
+
+ #selected {
+     background-color: red;
+ }
+
+ #selected a {
+     color: white;
+ }
+
+ .gamecards {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+ }
+
+ .card-details {
+     padding: 5%;
+ }
+
+ .card-details .transfer button {
+     background-color: white;
+     padding: 2% 5%;
+     font-weight: 700;
+     border-radius: 5%;
+ }
+
+ .card-details .blog-info {
+     display: flex;
+     justify-content: space-between;
+     width: 50%;
+ }
