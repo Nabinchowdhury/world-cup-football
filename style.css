@@ -165,6 +165,7 @@
      display: ;
  }
 
+
  footer {
      background-color: black;
      color: white;
@@ -203,4 +204,30 @@
 
  .fa-youtube {
      color: red;
+ }
+
+ /* ===================================================matc2nd website====================================================== */
+
+
+ .all-matches {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+
+     gap: 30px
+ }
+
+ .match {
+     border: 1px solid lightgrey;
+     text-align: center;
+     border: 1px solid lightgrey;
+     border-radius: 5%;
+     width: 100%;
+     padding: 10% 0%;
+ }
+
+ .teams {
+     display: flex;
+
+     justify-content: space-evenly;
+     align-items: center;
  }
