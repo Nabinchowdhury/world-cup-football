@@ -290,7 +290,9 @@
          flex-direction: column;
      }
 
-
+     .banner-text h1 {
+         font-size: 40px;
+     }
 
      #two {
          flex-direction: column;
