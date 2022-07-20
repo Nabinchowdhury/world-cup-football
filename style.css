@@ -232,6 +232,7 @@
 
  @media screen and (max-width:768px) {
 
+
      .banner,
      .contact,
      .socials {
@@ -255,6 +256,10 @@
          border: 1px solid lightgray;
      }
 
+     .blog {
+         width: 100%;
+     }
+
      .gamecards,
      .all-matches {
          grid-template-columns: repeat(1, 1fr);
@@ -270,19 +275,18 @@
          display: block
      }
 
+
+
      .nav {
          background-color: white;
          flex-direction: row;
-         width: 100%;
-
-
-
+         width: 90%;
      }
 
      .navmenu {
          border: 1px solid lightgray;
 
-         width: 15%;
+         width: 20%;
      }
 
      #two {
@@ -296,6 +300,11 @@
          grid-template-columns: repeat(2, 1fr);
 
      }
+
+     .blog {
+         width: 80%;
+     }
+
 
      .contact li {
          margin-right: 7%;
